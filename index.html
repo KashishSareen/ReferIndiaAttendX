@@ -1,0 +1,916 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReferIndia AttendX | Smart RFID & NFC Attendance Management</title>
+    <meta
+      name="description"
+      content="ReferIndia AttendX is an intelligent RFID & NFC-based attendance and entry-exit management solution for schools, companies, offices, factories, MSMEs and businesses of all sizes."
+    />
+    <meta
+      name="keywords"
+      content="RFID attendance system, NFC attendance, school attendance, employee attendance, entry exit tracking, Telegram attendance alerts, AttendX, ReferIndia AttendX"
+    />
+    <meta name="author" content="ReferIndia Global" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b2d5c" />
+    <meta
+      property="og:title"
+      content="ReferIndia AttendX | Smart RFID & NFC Attendance Management"
+    />
+    <meta
+      property="og:description"
+      content="Smart RFID & NFC attendance for schools, companies, offices and businesses with real-time Telegram notifications."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/refer_india_attend_logo.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ReferIndia AttendX | Smart RFID & NFC Attendance"
+    />
+    <meta
+      name="twitter:description"
+      content="Intelligent RFID & NFC attendance and entry-exit management for institutions and businesses."
+    />
+    <meta name="twitter:image" content="/images/refer_india_attend_logo.jpeg" />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="/images/refer_india_attend_logo.jpeg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="mainNav">
+      <div class="site-wrap">
+        <div class="flex items-center justify-between h-[72px] md:h-20">
+          <a href="#home" class="logo-box">
+            <img
+              src="/images/refer_india_attend_logo.jpeg"
+              alt="ReferIndia AttendX Logo"
+            />
+          </a>
+
+          <nav class="hidden lg:flex items-center gap-8">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#process" class="nav-link">Process</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </nav>
+
+          <button
+            id="menuBtn"
+            class="lg:hidden p-2 rounded-lg text-navy"
+            aria-label="Toggle menu"
+          >
+            <svg
+              id="menuIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-7 w-7"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <svg
+              id="closeIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-7 w-7 hidden"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div
+          id="mobileMenu"
+          class="mobile-menu lg:hidden border-t border-slate-100"
+        >
+          <div class="py-3 pb-4 flex flex-col gap-1">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#features" class="mobile-link">Features</a>
+            <a href="#process" class="mobile-link">Process</a>
+            <a href="#pricing" class="mobile-link">Pricing</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HOME / HERO -->
+      <section id="home" class="hero">
+        <div class="site-wrap relative z-10 w-full">
+          <div class="grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-10 xl:gap-14 items-center">
+            <div class="text-white" data-aos="fade-up">
+              <span class="hero-badge mb-5 md:mb-6">
+                <span class="pulse-dot" aria-hidden="true"></span>
+                Smart Attendance for Every Industry
+              </span>
+              <h1
+                class="text-[1.7rem] sm:text-3xl md:text-4xl lg:text-[2.85rem] xl:text-[3.1rem] font-extrabold leading-[1.2] mb-3 md:mb-4"
+              >
+                Smart RFID &amp; NFC Attendance Management for Schools,
+                Companies &amp; Businesses
+              </h1>
+              <p class="hero-tagline">
+                Smart Technology. Automated Attendance. Better Management.
+              </p>
+              <p class="text-sm sm:text-base md:text-lg text-slate-200/90 max-w-xl mb-6 md:mb-8 leading-relaxed">
+                Automate entry-exit tracking, get live Telegram alerts, and manage
+                attendance from one powerful web application.
+              </p>
+              <div class="hero-actions flex flex-wrap gap-3 mb-6 md:mb-8">
+                <a href="#features" class="btn-primary">Explore AttendX</a>
+                <a href="#contact" class="btn-glass">Request a Demo</a>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 max-w-2xl">
+                <div class="mini-stat" data-aos="fade-up" data-aos-delay="80">
+                  <p>RFID + NFC</p>
+                  <p class="sub">Quick card tap</p>
+                </div>
+                <div class="mini-stat" data-aos="fade-up" data-aos-delay="120">
+                  <p>Telegram</p>
+                  <p class="sub">Live alerts</p>
+                </div>
+                <div class="mini-stat" data-aos="fade-up" data-aos-delay="160">
+                  <p>Dual Devices</p>
+                  <p class="sub">Entry + Exit</p>
+                </div>
+                <div class="mini-stat" data-aos="fade-up" data-aos-delay="200">
+                  <p>24 Hrs</p>
+                  <p class="sub">Battery backup</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-center lg:justify-end w-full"
+              data-aos="fade-up"
+              data-aos-delay="120"
+            >
+              <div class="hero-visual">
+                <div class="hero-glow"></div>
+                <div class="hero-ring hero-ring-1"></div>
+                <div class="hero-ring hero-ring-2"></div>
+
+                <div class="float-chip entry">
+                  ENTRY Device
+                  <span>Tap to check-in</span>
+                </div>
+                <div class="float-chip alert">
+                  Telegram Alert
+                  <span>Sent instantly</span>
+                </div>
+                <div class="float-chip exit">
+                  EXIT Device
+                  <span>Tap to check-out</span>
+                </div>
+                <div class="float-chip live">
+                  Live Tracking
+                  <span>Web app synced</span>
+                </div>
+
+                <div class="hero-logo-stage">
+                  <img
+                    src="/images/refer_india_attend_logo.jpeg"
+                    alt="ReferIndia AttendX"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section bg-white">
+        <div class="site-wrap">
+          <div class="grid lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 items-center">
+            <div data-aos="fade-up">
+              <p class="section-label">About AttendX</p>
+              <h2 class="section-title">
+                One smart solution for every organization
+              </h2>
+              <div class="section-line mb-5"></div>
+              <p class="text-muted mb-4">
+                ReferIndia AttendX is an intelligent RFID &amp; NFC-based
+                attendance and entry-exit management solution designed for
+                educational institutions, companies, MSMEs, corporate offices,
+                factories and businesses of all sizes.
+              </p>
+              <p class="text-muted mb-4">
+                Whether you manage a school campus, office floor, warehouse or
+                manufacturing unit — AttendX helps you automate attendance,
+                track movement and stay updated in real time through a
+                centralized web application.
+              </p>
+              <p class="font-semibold text-orange mb-6">
+                Smart Attendance. Smarter Workplaces. Better Management.
+              </p>
+              <a href="#process" class="btn-outline text-sm">See the Process</a>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100">
+              <div class="about-panel">
+                <div class="about-inner">
+                  <img
+                    src="/images/refer_india_attend_logo.jpeg"
+                    alt="AttendX overview"
+                    class="w-full rounded-xl mb-4 object-contain"
+                  />
+                  <div class="space-y-2.5">
+                    <div class="check-row">
+                      <span class="dot-cyan"></span> Entry &amp; Exit tracking
+                    </div>
+                    <div class="check-row">
+                      <span class="dot-orange"></span> Instant Telegram alerts
+                    </div>
+                    <div class="check-row">
+                      <span class="dot-cyan"></span> Centralized web reports
+                    </div>
+                    <div class="check-row">
+                      <span class="dot-orange"></span> Simple card-tap operation
+                    </div>
+                  </div>
+                  <div class="about-device-row">
+                    <div class="about-device">
+                      Entry Device
+                      <small>Gate IN</small>
+                    </div>
+                    <div class="about-device">
+                      Exit Device
+                      <small>Gate OUT</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IDEAL FOR -->
+      <section class="section section-soft">
+        <div class="site-wrap">
+          <div class="text-center mb-8 md:mb-10" data-aos="fade-up">
+            <p class="section-label">Ideal For</p>
+            <h2 class="section-title">Built for workplaces of every kind</h2>
+            <div class="section-line center"></div>
+          </div>
+          <div class="ideal-wrap" data-aos="fade-up" data-aos-delay="80">
+            <span class="ideal-pill">Schools &amp; Colleges</span>
+            <span class="ideal-pill">Corporate Offices</span>
+            <span class="ideal-pill">MSMEs &amp; Small Businesses</span>
+            <span class="ideal-pill">Factories &amp; Manufacturing</span>
+            <span class="ideal-pill">Warehouses &amp; Logistics</span>
+            <span class="ideal-pill">Hospitals &amp; Healthcare</span>
+            <span class="ideal-pill">Retail &amp; Shopping Centres</span>
+            <span class="ideal-pill">IT &amp; Software Companies</span>
+            <span class="ideal-pill">Security Agencies</span>
+            <span class="ideal-pill">Coaching Institutes</span>
+            <span class="ideal-pill">Industrial Units</span>
+            <span class="ideal-pill">Multi-Branch Offices</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="features" class="section bg-white">
+        <div class="site-wrap">
+          <div class="text-center mb-10 md:mb-12" data-aos="fade-up">
+            <p class="section-label">Key Features</p>
+            <h2 class="section-title">Powerful features. Simple experience.</h2>
+            <div class="section-line center"></div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+            <article class="feature-card" data-aos="fade-up">
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Smart RFID &amp; NFC
+              </h3>
+              <p class="text-sm text-muted">
+                Tap an RFID/NFC card on the device to record entry or exit
+                instantly.
+              </p>
+            </article>
+
+            <article
+              class="feature-card"
+              data-aos="fade-up"
+              data-aos-delay="60"
+            >
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Entry &amp; Exit Tracking
+              </h3>
+              <p class="text-sm text-muted">
+                Two dedicated devices — one at entry, one at exit — for accurate
+                movement tracking.
+              </p>
+            </article>
+
+            <article
+              class="feature-card"
+              data-aos="fade-up"
+              data-aos-delay="120"
+            >
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Telegram Notifications
+              </h3>
+              <p class="text-sm text-muted">
+                Get instant alerts whenever a student or employee checks in or
+                checks out.
+              </p>
+            </article>
+
+            <article
+              class="feature-card"
+              data-aos="fade-up"
+              data-aos-delay="180"
+            >
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Centralized Web App
+              </h3>
+              <p class="text-sm text-muted">
+                Monitor daily activity, manage records and access attendance
+                from one platform.
+              </p>
+            </article>
+
+            <article class="feature-card" data-aos="fade-up">
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Reports &amp; Records
+              </h3>
+              <p class="text-sm text-muted">
+                Keep digital attendance records and reports for campus or
+                workforce management.
+              </p>
+            </article>
+
+            <article
+              class="feature-card"
+              data-aos="fade-up"
+              data-aos-delay="60"
+            >
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Dual Device Setup
+              </h3>
+              <p class="text-sm text-muted">
+                Complete package with one Entry device and one Exit device for
+                accurate tracking.
+              </p>
+            </article>
+
+            <article
+              class="feature-card"
+              data-aos="fade-up"
+              data-aos-delay="120"
+            >
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Battery Backup
+              </h3>
+              <p class="text-sm text-muted">
+                Up to 24 hours of backup so attendance keeps running during
+                power cuts.
+              </p>
+            </article>
+
+            <article
+              class="feature-card"
+              data-aos="fade-up"
+              data-aos-delay="180"
+            >
+              <div class="icon-box">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-navy mb-2 text-[0.95rem]">
+                Simple to Use
+              </h3>
+              <p class="text-sm text-muted">
+                No complex process — students and employees just tap their card
+                and go.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section id="process" class="section section-soft">
+        <div class="site-wrap">
+          <div class="text-center mb-10 md:mb-12" data-aos="fade-up">
+            <p class="section-label">Our Process</p>
+            <h2 class="section-title">From install to insights in 6 steps</h2>
+            <div class="section-line center"></div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+            <div class="step-card" data-aos="zoom-in">
+              <div class="step-num">1</div>
+              <h3 class="font-bold text-navy mb-1.5 text-[0.95rem]">
+                Device Installation
+              </h3>
+              <p class="text-sm text-muted">
+                Install one device at the entry gate and the second at the exit
+                gate.
+              </p>
+            </div>
+            <div class="step-card" data-aos="zoom-in" data-aos-delay="60">
+              <div class="step-num">2</div>
+              <h3 class="font-bold text-navy mb-1.5 text-[0.95rem]">
+                Card Registration
+              </h3>
+              <p class="text-sm text-muted">
+                Register and assign RFID/NFC cards to students, employees or
+                staff.
+              </p>
+            </div>
+            <div class="step-card" data-aos="zoom-in" data-aos-delay="120">
+              <div class="step-num">3</div>
+              <h3 class="font-bold text-navy mb-1.5 text-[0.95rem]">
+                Tap &amp; Record
+              </h3>
+              <p class="text-sm text-muted">
+                Users simply tap their cards when entering or leaving the
+                premises.
+              </p>
+            </div>
+            <div class="step-card" data-aos="zoom-in">
+              <div class="step-num">4</div>
+              <h3 class="font-bold text-navy mb-1.5 text-[0.95rem]">
+                Auto Tracking
+              </h3>
+              <p class="text-sm text-muted">
+                The system automatically records the matching entry or exit
+                activity.
+              </p>
+            </div>
+            <div class="step-card" data-aos="zoom-in" data-aos-delay="60">
+              <div class="step-num">5</div>
+              <h3 class="font-bold text-navy mb-1.5 text-[0.95rem]">
+                Telegram Alerts
+              </h3>
+              <p class="text-sm text-muted">
+                Receive real-time notifications on your dedicated Telegram
+                channel.
+              </p>
+            </div>
+            <div class="step-card" data-aos="zoom-in" data-aos-delay="120">
+              <div class="step-num">6</div>
+              <h3 class="font-bold text-navy mb-1.5 text-[0.95rem]">
+                Access Reports
+              </h3>
+              <p class="text-sm text-muted">
+                View attendance records and daily activity in the web
+                application.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INDUSTRIES -->
+      <section id="industries" class="section section-navy">
+        <div class="site-wrap">
+          <div class="text-center mb-10 md:mb-12" data-aos="fade-up">
+            <p
+              class="section-label"
+              style="color: #5dcef2; -webkit-text-fill-color: #5dcef2"
+            >
+              Industries
+            </p>
+            <h2 class="section-title">Designed for every industry</h2>
+            <div class="section-line center"></div>
+            <p
+              class="mt-4 text-slate-200/85 max-w-2xl mx-auto text-sm sm:text-base"
+            >
+              Suitable for organizations of different sizes and business
+              sectors.
+            </p>
+          </div>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+            <div class="industry-card" data-aos="fade-up">
+              <h3>Educational</h3>
+              <ul>
+                <li>Schools</li>
+                <li>Colleges &amp; Universities</li>
+                <li>Coaching Institutes</li>
+                <li>Training Centres</li>
+                <li>Educational Campuses</li>
+              </ul>
+            </div>
+            <div class="industry-card" data-aos="fade-up" data-aos-delay="60">
+              <h3>Corporate &amp; Business</h3>
+              <ul>
+                <li>Private &amp; Public Ltd. Companies</li>
+                <li>Corporate &amp; IT Offices</li>
+                <li>Startups &amp; MSMEs</li>
+                <li>Professional Services</li>
+                <li>Multi-Branch Offices</li>
+              </ul>
+            </div>
+            <div class="industry-card" data-aos="fade-up" data-aos-delay="120">
+              <h3>Industrial</h3>
+              <ul>
+                <li>Factories</li>
+                <li>Manufacturing Units</li>
+                <li>Production Plants</li>
+                <li>Workshops</li>
+                <li>Engineering Units</li>
+              </ul>
+            </div>
+            <div class="industry-card" data-aos="fade-up" data-aos-delay="180">
+              <h3>Commercial &amp; Other</h3>
+              <ul>
+                <li>Warehouses &amp; Logistics</li>
+                <li>Hospitals &amp; Healthcare</li>
+                <li>Retail &amp; Shopping Centres</li>
+                <li>Security &amp; Facility Mgmt</li>
+                <li>Distribution Centres</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section id="pricing" class="section section-soft">
+        <div class="site-wrap">
+          <div class="text-center mb-8 md:mb-10" data-aos="fade-up">
+            <p class="section-label">Special Launch Offer</p>
+            <h2 class="section-title">Complete smart attendance solution</h2>
+            <div class="section-line center"></div>
+          </div>
+
+          <div data-aos="zoom-in">
+            <div class="price-card">
+              <div class="price-head">
+                <p
+                  class="text-xs uppercase tracking-wider text-cyan-100 font-semibold mb-2"
+                >
+                  Launch Package
+                </p>
+                <p class="text-4xl sm:text-5xl font-extrabold">₹15,000</p>
+                <p class="text-sm text-slate-200 mt-2">
+                  2 Devices + 1 Year Web Access
+                </p>
+              </div>
+              <div class="price-body">
+                <ul class="price-list">
+                  <li>
+                    <span class="tick">✓</span> 2 RFID/NFC Attendance Devices
+                  </li>
+                  <li>
+                    <span class="tick">✓</span> 1 Entry Device + 1 Exit Device
+                  </li>
+                  <li>
+                    <span class="tick">✓</span> Web Application Access for 1
+                    Year
+                  </li>
+                  <li>
+                    <span class="tick">✓</span> Student &amp; Employee
+                    Entry-Exit Tracking
+                  </li>
+                  <li>
+                    <span class="tick">✓</span> Real-Time Telegram Notifications
+                  </li>
+                  <li>
+                    <span class="tick">✓</span> Attendance Monitoring &amp;
+                    Reports
+                  </li>
+                  <li><span class="tick">✓</span> Battery Backup Support</li>
+                </ul>
+                <div class="renew-box">
+                  <strong class="text-navy">Annual Renewal:</strong> ₹5,000/year
+                  — Web Application Maintenance &amp; Renewal
+                </div>
+                <p class="text-xs text-muted mb-4">
+                  Device Warranty: 3 Months · Special offer for institutions
+                  &amp; businesses
+                </p>
+                <a href="#contact" class="btn-primary w-full">Request a Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY CHOOSE -->
+      <section class="section bg-white">
+        <div class="site-wrap">
+          <div class="text-center mb-8 md:mb-10" data-aos="fade-up">
+            <p class="section-label">Why AttendX</p>
+            <h2 class="section-title">Why organizations choose us</h2>
+            <div class="section-line center"></div>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+            <div class="why-card" data-aos="fade-up">
+              <span class="why-icon">✓</span>
+              <p class="text-sm font-semibold text-navy">
+                Smart RFID &amp; NFC-based technology
+              </p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="40">
+              <span class="why-icon">✓</span>
+              <p class="text-sm font-semibold text-navy">
+                Automated entry-exit tracking
+              </p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="80">
+              <span class="why-icon">✓</span>
+              <p class="text-sm font-semibold text-navy">
+                Real-time attendance visibility
+              </p>
+            </div>
+            <div class="why-card" data-aos="fade-up">
+              <span class="why-icon">✓</span>
+              <p class="text-sm font-semibold text-navy">
+                Instant Telegram notifications
+              </p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="40">
+              <span class="why-icon">✓</span>
+              <p class="text-sm font-semibold text-navy">
+                Centralized web-based management
+              </p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="80">
+              <span class="why-icon">✓</span>
+              <p class="text-sm font-semibold text-navy">
+                Dedicated technical support
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-navy">
+        <div class="site-wrap contact-wrap text-center">
+          <h2 class="section-title mb-4" data-aos="fade-up">
+            Make your organization smarter with AttendX
+          </h2>
+          <p
+            class="text-slate-200/90 mb-3 max-w-2xl mx-auto text-sm sm:text-base"
+            data-aos="fade-up"
+            data-aos-delay="60"
+          >
+            Say goodbye to traditional attendance registers and switch to
+            intelligent RFID &amp; NFC attendance automation.
+          </p>
+          <p
+            class="text-orange-300 font-semibold mb-8"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            Simplify Attendance. Improve Visibility. Automate Management.
+          </p>
+
+          <div class="contact-shell" data-aos="zoom-in">
+            <h3 class="text-lg font-bold mb-2">Get Started Today</h3>
+            <p class="text-sm text-slate-300 mb-4">
+              Contact us for a demo or installation discussion.
+            </p>
+            <p class="font-semibold mb-1">ReferIndia Global</p>
+            <a
+              href="tel:+919702053758"
+              class="inline-block text-xl font-bold text-cyan-300 hover:text-white transition mb-5"
+              >+91 97020 53758</a
+            >
+            <div class="flex flex-wrap justify-center gap-3">
+              <a
+                href="tel:+919702053758"
+                class="btn-primary !py-2.5 !px-5 text-sm"
+                >Call Now</a
+              >
+              <a href="#pricing" class="btn-glass !py-2.5 !px-5 text-sm"
+                >View Offer</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="site-wrap">
+        <div class="grid md:grid-cols-3 gap-8 mb-10">
+          <div data-aos="fade-up">
+            <div class="logo-box mb-4 bg-white inline-flex">
+              <img
+                src="/images/refer_india_attend_logo.jpeg"
+                alt="ReferIndia AttendX"
+                class="h-11 w-auto object-contain rounded-md"
+              />
+            </div>
+            <p class="text-sm text-slate-400 leading-relaxed">
+              Intelligent RFID &amp; NFC attendance and entry-exit management
+              for organizations of all sizes.
+            </p>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="60">
+            <h4 class="font-bold mb-4 text-sm">Quick Links</h4>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#about" class="footer-link">About</a></li>
+              <li><a href="#features" class="footer-link">Features</a></li>
+              <li>
+                <a href="#process" class="footer-link">Process</a>
+              </li>
+              <li><a href="#pricing" class="footer-link">Pricing</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="120">
+            <h4 class="font-bold mb-4 text-sm">Contact</h4>
+            <ul class="space-y-2 text-sm text-slate-400">
+              <li>ReferIndia Global</li>
+              <li>
+                <a href="tel:+919702053758" class="footer-link"
+                  >+91 97020 53758</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.referindia.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-link text-cyan-300 font-medium"
+                >
+                  https://www.referindia.co.in/
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2"
+        >
+          <p class="text-xs text-slate-500">
+            &copy; 2026 ReferIndia Global. All rights reserved.
+          </p>
+          <p class="text-xs text-slate-500 italic">
+            Building Scalable Technology for a Global Future.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
