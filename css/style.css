@@ -659,24 +659,40 @@ a {
 .dot-cyan { background: var(--cyan); }
 .dot-orange { background: var(--orange); }
 
-/* Ideal pills */
+/* Ideal pills — always even rows (2 on mobile, more on desktop) */
 .ideal-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.75rem;
 }
 
+@media (min-width: 640px) {
+  .ideal-wrap {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .ideal-wrap {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 .ideal-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   background: #fff;
   border: 1px solid var(--line);
   color: var(--navy-2);
-  font-weight: 550;
-  font-size: 0.88rem;
-  padding: 0.7rem 1.15rem;
-  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.82rem;
+  padding: 0.85rem 0.9rem;
+  border-radius: 14px;
   box-shadow: 0 6px 16px rgba(11, 45, 92, 0.05);
   transition: 0.25s ease;
+  min-height: 56px;
 }
 
 .ideal-pill:hover {
@@ -927,6 +943,37 @@ a {
   transform: translateY(-4px);
 }
 
+/* Floating WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  right: 18px;
+  bottom: 22px;
+  z-index: 60;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #25d366;
+  box-shadow: 0 10px 28px rgba(37, 211, 102, 0.45);
+  transition: 0.25s ease;
+  line-height: 0;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 14px 32px rgba(37, 211, 102, 0.55);
+}
+
+.whatsapp-float-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  flex-shrink: 0;
+  aspect-ratio: 1 / 1;
+}
+
 /* Footer */
 .footer {
   background: #041225;
@@ -1105,6 +1152,23 @@ a {
   .contact-shell {
     padding: 1.4rem 1.15rem;
     border-radius: 18px;
+  }
+
+  .whatsapp-float {
+    right: 14px;
+    bottom: 40px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .whatsapp-float-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer .site-wrap > div:last-child {
+    padding-right: 4.25rem;
+    padding-bottom: 0.35rem;
   }
 
   .footer {

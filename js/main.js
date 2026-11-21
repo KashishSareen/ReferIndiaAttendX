@@ -68,4 +68,14 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     { passive: true }
   );
+
+  var waFloat = document.getElementById("whatsappFloat");
+  if (waFloat) {
+    waFloat.addEventListener("click", function (e) {
+      e.preventDefault();
+      var msg = "Query from website.";
+      var url = "https://wa.me/919702053758?text=" + encodeURIComponent(msg);
+      window.open(url, "_blank", "noopener,noreferrer");
+    });
+  }
 });
