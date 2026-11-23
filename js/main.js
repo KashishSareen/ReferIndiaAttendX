@@ -83,27 +83,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (contactForm) {
     contactForm.addEventListener("submit", function (e) {
       e.preventDefault();
+      contactForm.reset();
+    });
 
-      var name = (document.getElementById("contactName").value || "").trim();
-      var phone = (document.getElementById("contactPhone").value || "").trim();
-      var email = (document.getElementById("contactEmail").value || "").trim();
-      var org = (document.getElementById("contactOrg").value || "").trim();
-      var message = (document.getElementById("contactMessage").value || "").trim();
-
-      var text =
-        "Query from website.\n\n" +
-        "I would like to request a demo for ReferIndia AttendX.\n\n" +
-        "Name: " + name + "\n" +
-        "Phone: " + phone + "\n" +
-        "Email: " + (email || "N/A") + "\n" +
-        "Organization: " + (org || "N/A") + "\n" +
-        "Message: " + message;
-
-      window.open(
-        "https://wa.me/919702053758?text=" + encodeURIComponent(text),
-        "_blank",
-        "noopener,noreferrer"
-      );
+    window.addEventListener("pageshow", function () {
+      contactForm.reset();
     });
   }
 });
