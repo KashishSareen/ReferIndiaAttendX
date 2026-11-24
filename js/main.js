@@ -79,15 +79,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  var contactForm = document.getElementById("contactForm");
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (e) {
-      e.preventDefault();
-      contactForm.reset();
-    });
+var contactForm = document.getElementById("whatsappBookingForm");
 
+if (contactForm) {
     window.addEventListener("pageshow", function () {
-      contactForm.reset();
+        contactForm.reset();
     });
-  }
-});
+}
+ });
+
